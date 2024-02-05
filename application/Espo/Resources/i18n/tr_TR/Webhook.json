@@ -1,9 +1,0 @@
-{
-  "fields": {
-    "event": "Etkinlik",
-    "secretKey": "Gizli Anahtar"
-  },
-  "links": {
-    "user": "Kullanıcı"
-  }
-}

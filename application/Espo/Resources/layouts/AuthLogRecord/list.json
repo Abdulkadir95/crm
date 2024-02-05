@@ -1,9 +1,0 @@
-[
-    {"name":"username"},
-    {"name":"isDenied", "widthPx": 100},
-    {"name":"ipAddress", "width": 14},
-    {"name":"denialReason", "width": 22},
-    {"name":"user", "width": 16},
-    {"name":"createdAt", "width": 14}
-
-]
