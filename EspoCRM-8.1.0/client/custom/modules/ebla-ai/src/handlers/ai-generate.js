@@ -1,0 +1,1 @@
+define("ebla-ai:handlers/ai-generate",["action-handler"],function(e){return e.extend({process:function(){this.addActionHandler("aiGenerate",()=>this.actionAiGenerate())},actionAiGenerate:function(e,n){this.createView("dialog","ebla-ai:views/modals/ai-generate",{model:this.model},e=>{e.render(),this.listenToOnce(e,"done",()=>{})})},init:function(){}})});

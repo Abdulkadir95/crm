@@ -1,0 +1,1 @@
+define("ebla-ai:views/modals/ai-generate/fields/prompt",["views/fields/varchar"],function(e){return e.extend({setupOptions:function(){e.prototype.setupOptions.call(this),this.params.options=this.getMetadata().get("clientDefs."+this.params.parentModel.entityType+".predefinedPrompts")||[]}})});

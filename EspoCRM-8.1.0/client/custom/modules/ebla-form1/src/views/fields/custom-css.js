@@ -1,0 +1,1 @@
+define("ebla-form:views/fields/custom-css",["views/fields/formula"],function(e){return e.extend({editTemplate:"ebla-form:fields/formula/edit",getAttributeList:function(){return Espo.Utils.clone(this.getMetadata().get(["app","customCSS"])||[])}})});

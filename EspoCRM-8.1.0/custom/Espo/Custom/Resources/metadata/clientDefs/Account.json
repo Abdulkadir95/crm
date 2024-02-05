@@ -1,0 +1,12 @@
+{
+    "kanbanViewMode": false,
+    "color": "#edc755",
+    "iconClass": "fas fa-building",
+    "kanbanStatusField": false,
+    "kanbanStatusBarClickDisabled": false,
+    "relationshipPanels": {
+        "assignmentItems": {
+            "layout": null
+        }
+    }
+}

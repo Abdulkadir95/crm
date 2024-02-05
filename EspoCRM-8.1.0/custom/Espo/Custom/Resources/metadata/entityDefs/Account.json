@@ -1,0 +1,44 @@
+{
+    "fields": {
+        "assignmentItems": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": false,
+            "layoutMassUpdateDisabled": false,
+            "layoutListDisabled": false,
+            "noLoad": false,
+            "importDisabled": false,
+            "exportDisabled": false,
+            "customizationDisabled": false,
+            "isCustom": true
+        },
+        "billingAddressMap": {
+            "enablePolygon": true
+        },
+        "portal": {
+            "type": "varchar",
+            "maxLength": 150,
+            "options": [],
+            "isCustom": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name",
+            "emailAddress"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": false,
+    "links": {
+        "assignmentItems": {
+            "type": "hasMany",
+            "foreign": "account",
+            "entity": "AssignmentItem",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

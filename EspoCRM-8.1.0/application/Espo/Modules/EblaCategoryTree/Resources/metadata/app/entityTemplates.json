@@ -1,0 +1,5 @@
+{
+    "CategoryTree": {
+        "hookClassName": "Espo\\Modules\\EblaCategoryTree\\Tools\\EntityManager\\Hooks\\CategoryTreeType"
+    }
+}

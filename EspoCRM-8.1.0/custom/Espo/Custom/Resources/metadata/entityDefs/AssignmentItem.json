@@ -1,0 +1,26 @@
+{
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": [
+            "name"
+        ],
+        "fullTextSearch": false,
+        "countDisabled": false
+    },
+    "optimisticConcurrencyControl": false,
+    "fields": {
+        "account": {
+            "type": "link"
+        }
+    },
+    "links": {
+        "account": {
+            "type": "belongsTo",
+            "foreign": "assignmentItems",
+            "entity": "Account",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

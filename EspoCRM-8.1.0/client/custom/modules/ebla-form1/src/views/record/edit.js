@@ -1,0 +1,1 @@
+define("ebla-form:views/record/edit","views/record/edit",function(e){return e.extend({type:"ebla-form",template:"ebla-form:record/edit",buttonList:[],isWide:!0,sideDisabled:!0,bottomDisabled:!0,navigateButtonsDisabled:!0,buttonsDisabled:!0,beforeSave:function(){this.notify("Sending...")}})});

@@ -1,0 +1,1 @@
+define("ebla-category-tree:views/category-base/list",["views/list-with-categories"],function(e){return e.extend({categoryFilterType:"inCategory",setup:function(){this.categoryScope=this.scope+"Category",this.categoryField=this.scope.charAt(0).toLowerCase()+this.scope.slice(1)+"Categories",e.prototype.setup.call(this)}})});

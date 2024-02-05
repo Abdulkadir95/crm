@@ -1,0 +1,17 @@
+{
+    "options": {
+        "type": {
+            "Customer": "Customer",
+            "Investor": "Investor",
+            "Partner": "Partner",
+            "Reseller": "Reseller"
+        }
+    },
+    "fields": {
+        "assignmentItems": "Assignment Items",
+        "portal": "Portal"
+    },
+    "links": {
+        "assignmentItems": "Assignment Items"
+    }
+}

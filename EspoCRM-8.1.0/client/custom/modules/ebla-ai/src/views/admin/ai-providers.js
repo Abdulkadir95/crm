@@ -1,0 +1,1 @@
+define("ebla-ai:views/admin/ai-providers",["views/settings/record/edit"],function(e){return e.extend({detailLayout:[{rows:[[{name:"defaultAiProvider"},!1]]}]})});
